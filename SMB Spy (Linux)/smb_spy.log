@@ -1,0 +1,3 @@
+2024-08-14 08:03:35,397 - INFO - Scanning SMB ports 139 and 445 on 458.598.2.5...
+2024-08-14 08:03:57,378 - ERROR - Error scanning SMB ports on 458.598.2.5: '458.598.2.5'
+2024-08-14 08:03:57,378 - INFO - No open SMB ports found.
