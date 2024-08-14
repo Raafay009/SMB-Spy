@@ -1,16 +1,16 @@
-**SMB Spy: A SMB Scanner and Inspector
-**
+𝗦𝗠𝗕 𝗦𝗽𝘆: 𝗔 𝗦𝗠𝗕 𝗦𝗰𝗮𝗻𝗻𝗲𝗿 𝗮𝗻𝗱 𝗜𝗻𝘀𝗽𝗲𝗰𝘁𝗼𝗿
+
 SMB Spy is a Python tool designed to scan, connect to, and inspect SMB (Server Message Block) services on a network. This tool helps security professionals and network administrators identify potential security issues related to SMB services. It scans for open SMB ports, connects to the SMB shares, and checks for files that might contain hard-coded credentials or other suspicious content.
 
-**Features**
+𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
 
 1. Port Scanning: Detects if SMB services are running on the commonly used ports (139 and 445) of a given target.
 2. SMB Connection: Establishes a connection to SMB services using anonymous or specified credentials.
 3. Share Listing: Retrieves and lists available SMB shares on the target system.
 4. File Inspection: Downloads and inspects files within the shares for potential hard-coded credentials or sensitive information.
 
-**How It Works
-**
+𝗪𝗼𝗿𝗸𝗶𝗻𝗴
+
 1. Scan for SMB Ports:
         The tool scans the target IP for open SMB ports (139 and 445) to identify if SMB services are available.
 
@@ -23,8 +23,7 @@ SMB Spy is a Python tool designed to scan, connect to, and inspect SMB (Server M
 4. Inspect Files:
         For each share, it downloads and inspects files for keywords associated with hard-coded credentials (like 'username' and 'password').
 
-Usage
-**Linux Version**
+𝗟𝗶𝗻𝘂𝘅 𝗩𝗲𝗿𝘀𝗶𝗼𝗻:
 
 Requirements:
         Install the required Python libraries: nmap, impacket.
@@ -37,8 +36,7 @@ Running the Script:
 Output:
         The script logs its activities to smbspy.log and prints relevant information to the console.
 
-**Windows Version
-**
+𝗪𝗶𝗻𝗱𝗼𝘄𝘀 𝗩𝗲𝗿𝘀𝗶𝗼𝗻:
 
 Requirements:
         Install the required Python library: impacket.
@@ -51,11 +49,11 @@ Running the Script:
 Output:
         The script prints status messages and findings directly to the console.
 
-**Notes**
+𝗡𝗼𝘁𝗲𝘀:
 
 1. Security Warning: Use this tool responsibly and only on networks you have permission to scan. Unauthorized access to network services is illegal and unethical.
 2. Customization: Feel free to customize the scanning ports, file inspection criteria, and connection parameters according to your needs.
 
-**Contributing**
+𝗖𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻𝘀:
 
 Contributions are welcome! If you have improvements or additional features to suggest, please submit a pull request or open an issue on this repository.
