@@ -44,7 +44,8 @@ SMB Spy is a Python tool designed to scan, connect to, and inspect SMB (Server M
 
 - Requirements: Install the required Python libraries: nmap, impacket. Ensure you have permissions to run network scans and access SMB services.
 
-- Running the Script: Edit the target_ip variable with the IP address you want to scan. Run the script using Python: python smbspy_linux.py.
+- Running the Script: Edit the target_ip variable with the IP address you want to scan. Run the script using Python: python smbspy_linux.py OR if using the executable enter
+  req info when prompted.
 
 - Output: The script logs its activities to smbspy.log and prints relevant information to the console.
 
@@ -52,7 +53,8 @@ SMB Spy is a Python tool designed to scan, connect to, and inspect SMB (Server M
 
 - Requirements: Install the required Python library: impacket. Ensure you have network access and proper permissions.
 
-- Running the Script: Update the target_ip, username, password, and domain variables with the appropriate values. Execute the script using Python: python smbspy_windows.py.
+- Running the Script: Update the target_ip, username, password, and domain variables with the appropriate values OR if using the executable enter
+  req info when prompted. Execute the script using Python: python smbspy_windows.py.
 
 - Output: The script prints status messages and findings directly to the console.
 
