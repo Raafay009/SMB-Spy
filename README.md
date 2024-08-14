@@ -4,6 +4,11 @@ Originally developed by : Muhammad Abdur Raafay
 
 SMB Spy is a Python tool designed to scan, connect to, and inspect SMB (Server Message Block) services on a network. This tool helps security professionals and network administrators identify potential security issues related to SMB services. It scans for open SMB ports, connects to the SMB shares, and checks for files that might contain hard-coded credentials or other suspicious content.
 
+𝗙𝗶𝗹𝗲 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲:
+1. smbspy.exe (windows) & smbspy.exe (Linux) are download and ready to run tools.
+2. SMB Spy (Linux) & SMB Spy (Windows) folders contain actual source code & build, open sourced for further collaborative developments and improvements.
+
+
 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
 
 1. Port Scanning: Detects if SMB services are running on the commonly used ports (139 and 445) of a given target.
